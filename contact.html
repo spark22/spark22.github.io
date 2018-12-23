@@ -4,23 +4,7 @@
         <title>Contact Us</title>
         <link rel="stylesheet" type="text/css" href="contact.styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        /
-        <?php
         
-        if($_POST["submit"]) {
-            $recipient="cynidewandia@gmail.com";
-            $subject="Form to email message";
-            $sender=$_POST["sender"];
-            $senderEmail=$_POST["senderEmail"];
-            $message=$_POST["message"];
-        
-            $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
-        
-            mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
-        
-            $thankYou="<p>Thank you! Your message has been sent.</p>";
-        }
-        /?>
     </head>
     <body>
             <ul>
