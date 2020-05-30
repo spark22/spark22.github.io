@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel wishes</title>
+    <link rel="stylesheet" href="travelsite.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body style="background-color: black;">
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+            <a class="navbar-brand" href="travelsite.html" style="color:white"><i class="fa fa-fighter-jet" style="font-size: 30px;"></i> Travel</a>
+            
+            &NonBreakingSpace;
+            <a href="blog.html" style="color: white;">Blog</a>
+
+           
+
+            <div class="navbar-left">
+                <div class="topnav">
+                <a href="aboutme.html" style="color: white;">About me</a> &NonBreakingSpace;
+                <a href="#" style="color: white;">Resources</a>
+                </div>
+
+            </div>
+         </div>       
+    </nav>
+  
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+
+      <video autoplay muted loop >
+       <source src="https://player.vimeo.com/external/371815387.sd.mp4?s=3359d95ff86354ab1675eef275f6edf5c23bfc70&profile_id=139&oauth2_token_id=57447761" type="car video">
+    </video>
+    </div>
+
+    
+    <!-- Jumbotron -->
+    &NonBreakingSpace;
+   &NonBreakingSpace;
+
+    <!-- three columns -->
+    <div class="row">
+        <div class="column" onclick="openTab('b1');" style="background-image: url(https://st3.depositphotos.com/thumbs/13349494/image/17034/170345206/api_thumb_450.jpg);">
+          <h4>Most beautiful places to visit</h4>
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          <button class="button1">Learn More </button>
+        </div>
+        <div class="column" onclick="openTab('b2');" style="background-image:url(https://st3.depositphotos.com/thumbs/13349494/image/17034/170345550/api_thumb_450.jpg;">
+          <h4>Travel blog</h4>
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          <button class="button1">Learn More </button>
+        </div>
+        <div class="column" onclick="openTab('b3');" style="background-image:url(https://st3.depositphotos.com/thumbs/12039412/image/15237/152378310/api_thumb_450.jpg);">
+          <h4>Resources</h4>
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          <button class="button1">Learn More </button>
+        </div>
+      </div>
+      
+      <!-- Full-width columns: (hidden by default) -->
+      <div id="b1" class="containerTab" style="display:none;background:teal">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Beautiful palces to visit</h2>
+        <ul>
+          <li><strong>Venice,Italy</strong></li>
+          <p>Spectacular arched bridges to get your fill of this truly unique, wildly romantic floating city.</p>
+          <li><strong>Banff National Park,Canada</strong></li>
+          <p>Even if you're not particularly outdoorsy, you can still admire the views from one of the cozy and luxurious lakeside lodges throughout the park.</p>
+          <li><strong>Pamukkale,Turkey</strong></li>
+          <p>Put every infinity pool you’ve ever seen to shame with these natural, snow-white hot springs overlooking the nearby city of Denizli.</p>
+        </ul>
+        <button class="button1">Learn More </button>
+        
+      </div>
+      
+      <div id="b2" class="containerTab" style="display:none;background:blue">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Blog</h2>
+        <ul>
+          <li>How to survive anxiety while travelling</li>
+          <li>Safe female solo travel places</li>
+          <li>When hearing travel tips, consider the source.</li>
+        </ul>
+        <button class="button2">Click here</button>
+        
+      </div>
+      
+      <div id="b3" class="containerTab" style="display:none;background:violet">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Resources</h2>
+        <p>Plan your trip like an expert</p>
+        <button class="button3">Click here</button>
+        
+      </div>
+
+      &NonBreakingSpace;
+      &NonBreakingSpace;
+
+      <hr class="top">
+      
+
+      <h2>Some of the stangest things found around the world</h2>
+
+      <hr class="bottom">
+
+      <div class="card-deck">
+        <div class="card" style="background-image: url(https://static1.thetravelimages.com/wordpress/wp-content/uploads/2019/01/new-cannonballs.jpg?q=50&fit=crop&w=740&h=493" alt="first slide image" height="350" width="450")>
+          <div class="card-body text-center" >
+            <h4>Cannonballs on Folly Beach</h4>
+                    <p class="card-text" style="color:white">After Hurrican Dorian a couple discovered what looked like rocks on <em>Folly Beach-South Carolina</em>. They turned out to be civil war-era cannonballs. <a href="https://www.cnn.com/2019/09/09/us/dorian-folly-beach-cannonball-trnd/index.html">According to the authorities</a> this is due to erosion and it happens every couple of years</p>
+          </div>
+        </div>
+        <div class="card" style="background-image:url(http://ocdn.eu/pulscms-transforms/1/cLiktkqTURBXy9lNTA4NmRiOTM5ZmVlZTk2ZGNiZGM4NjcyYWNjNjNhZi5qcGVnkpUDADHNA8DNAhyTBc0B4M0BaA" height="350" width="450" alt="lake natron")>
+          <div class="card-body text-center">
+            <h4>Lake Natron</h4>
+                    <p class="card-text" style="color:white">This beautiful wonder of nature is located in <em>Arusha Tanzania</em>.The lake's high temperature and intense salt repels most birds.Animals that perish are turned into statues through calcification and preserved through bicarbonate content. <br> <b>Amazingly</b>, some birds, algae and flamingos do survive in the lake.  </p>
+          </div>
+        </div>
+        <div class="card" style="background-image: url(https://c2.staticflickr.com/8/7103/7182852103_5f29c5efd6_b.jpg" height="350" width="450" alt="underwater park");>
+          <div class="card-body text-center">
+            <h4>Gruner See(Green Lake)</h4>
+            <p class="card-text" style="color:white">This green colored lake in <em>Southeast Austria</em>, is surrounded by the snowed peaks if Hochschwab mountains and forests that create a place of fantastic beauty perfect for mountain adventures and hiking. <b>During summer</b>, the snow melts from the peaks and fresh waters flood the valley. <br><b>Best time of arrival is around mid-May or June</b></p>
+          </div>
+        </div>
+        <div class="card" style="background-image:url(https://images.pexels.com/photos/1265617/pexels-photo-1265617.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+          <div class="card-body text-center">
+            <h4>Cat island</h4>
+            <p class="card-text" style="color:white">The cats were originally brought to <strong>Tashirojima Island, Japan</strong> to assist with the island's silkworm farms. Since then their numbers have increased to the point of outnumbering the islands aging human population by almost four to one</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <br> <br> <br> <br>
+      
+
+
+    <ul id="slides">
+      <li class="slide showing">Slide 1</li>
+      <li class="slide">Slide 2</li>
+      <li class="slide">Slide 3</li>
+      <li class="slide">Slide 4</li>
+      <li class="slide">Slide 5</li>
+  </ul>
+
+
+
+
+
+<script src="travelsite.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    
+</body>
+</html>

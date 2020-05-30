@@ -1,0 +1,287 @@
+nav{
+  position: fixed;
+  top:0;
+  overflow: hidden;
+  width:100%;
+}
+
+.topnav a:hover{
+color:black;
+padding: 14px 16px;
+}
+
+
+.topnav{
+    position:  relative; left:1120px; top:-28px;
+    color:white;
+}
+
+.jumbotron{
+  position: relative;
+  overflow: hidden;
+  background-color:white;
+}
+
+.jumbotron video{
+  position: absolute;
+  z-index:1;
+  top:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+
+}
+
+.jumbotron .container{
+  z-index: 2;
+  position: relative;
+
+}
+
+.card card-image{
+  background-repeat: no-repeat;
+}
+
+.text-white{
+
+background-repeat: no-repeat;
+-webkit-background-size:100% 100%;
+-moz-background-size:100% 100%;
+min-height: 550px ;
+background-size:cover;
+
+}
+
+.text-white h5{
+    
+    font-family: 'Indie Flower', cursive;
+    font-size:68px;
+    text-align: center;
+    text-emphasis-color: white;
+
+}
+
+
+
+  
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* The grid: Three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+  
+.containerTab {
+    padding: 20px;
+    color: white;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Closable button inside the container tab */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h3{
+    font-family: 'Shadows Into Light', cursive;;
+    font-size:80px;
+    /* text-align:center; */
+    color: white;
+    
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:100px;
+    text-align: center;
+    color:yellow;
+}
+
+hr.top{
+    border:1px dashed white;
+    width: 70%;
+}
+
+hr.bottom{
+    border:1px dashed white;
+    width: 70%;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 10;
+    bottom: 0;
+    left: 0;
+    right: 30;
+    height: 92%;
+    width: 60%;
+    opacity: 0;
+    transition: .5s ease;
+    
+  }
+
+  .container:hover .image{
+      opacity: 0.3;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+  
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  position: absolute;  
+  }
+
+/* makes the slides work */
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+.slide {
+  font-size: 40px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #333;
+  color: #fff;
+}
+
+/* changes the content of the show */
+
+.slide:nth-of-type(1) {
+  background: red;
+}
+.slide:nth-of-type(2) {
+  background: orange;
+}
+.slide:nth-of-type(3) {
+  background: green;
+}
+.slide:nth-of-type(4) {
+  background: blue;
+}
+.slide:nth-of-type(5) {
+  background: purple;
+}
+
+
+
+/* ABOUTME.HTML STYLES */
+#firstimage{
+padding:25px 50px 75px 100px;
+width:auto;
+}
+
+#faceimage{
+  width: 300px;
+  border-radius: 30%;
+}
+
+.profilecard{
+  padding-right: 30px;
+}
+#title{
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+}
+
+#cards{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  float:right;
+
+}
+
+/*Resume&work done*/
+
+
+
+/* BLOG.HTML STYLES */
+#montenegroimage{
+  padding-left:20px;
+}
+
+.header a{
+  padding-left:20px;
+}
+
+.header h2{
+  text-align: left;
+  padding-left:30px;
+}

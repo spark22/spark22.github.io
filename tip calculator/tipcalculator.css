@@ -1,0 +1,32 @@
+body{
+    background-color: #a12d25;
+    font-family: 'DM Mono', monospace;;
+}
+
+h1{
+    text-shadow: 2px 2px #260f0d;
+    text-align: center;
+    font-size: 55px;
+}
+
+.calculator{
+    text-align: center;
+    
+}
+
+#calculate{
+    background-color: #260f0d;
+    padding: 15px 25px;
+    font-size: 16px;
+    transition: 0.5s;
+    
+}
+
+#calculate:hover{
+    background-color: antiquewhite;
+
+}
+
+#peoplebill{
+    width: 18%;
+}
